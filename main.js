@@ -112,7 +112,7 @@ $(document).ready(function() {
 
 			
 			"<br><p>You marked " + totalOpinionCount + " sentence" +
-			(totalOpinionCount > 1 ? "s" : "") + " as opinion or extrapolation (" +
+			(totalOpinionCount > 1 ? "s" : "") + " as opinion or comment (" +
 			opinionPercentage + "% of the total amount of sentences).</p>" +
 			
 			"<h3>The IDL index for this news is " + idiIndexDisplay + "</h3>"
