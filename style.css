@@ -1,0 +1,38 @@
+.form-line {margin-bottom: 10px;}
+textarea{width:100%;padding:20px;}
+body{font-size:18px;font-family:"Roboto",Arial,sans-serif;color:#1B1C3A;}
+main{margin-bottom:30px;}
+h1{font-weight:700;margin:30px 0 30px 0;width: calc(100% - 180px);}
+label{width:100%;margin:30px 0 10px 0;}
+button{margin:30px 0 100px 0;}
+header{position:relative;}
+img{position:absolute;margin-top:-30px;margin-left:50px; top:15px;right:0;width:150px;height:auto;}
+h3{font-size:24px;margin:30px 0 10px 0;font-weight:700;}
+h4{font-size:20px;margin:0 0 10px 0;font-weight:400;}
+button{border:none;box-shadow:none;background:#1B1C3A;color:#FFFFFF;padding:10px 20px;}
+button:hover{color:#1B1C3A;background:#FFCD02;}
+.but:hover{border:none;box-shadow:none;background:#1B1C3A;color:#FFFFFF;padding:10px 20px;}
+.but{color:#1B1C3A;background:#FFCD02;}
+select {border: none; box-shadow: none; background: #1B1C3A; color: #FFFFFF; padding: 5px 12px; }
+select:focus { outline: none; }
+select option { background: #1B1C3A; color: #FFFFFF;}
+select::-ms-expand {display: none;}
+.progress { background: linear-gradient(to right, #FFCD02, #1B1C3A); height: 40px; width: 100%; position: relative; border-radius: 4px; margin-bottom: 10px; }
+.progress .indicator { position: absolute; top: -30px; text-align: center; color: black; font-weight: bold; font-size: 14px; }
+.true-label{ text-align: left; font-weight: bold; font-size: 13px; margin-top: 5px; }
+.false-label { text-align: right; font-weight: bold; font-size: 13px; margin-top: 5px; }
+.true-label { float: left; }
+.false-label { float: right; }
+.value-label { position: absolute; left: calc(var(--value) * 10%); transform: translateX(-50%); 
+text-align: center; font-weight: bold; font-size: 28px; 
+width: 100%; color:#FFFFFF; z-index:999;
+margin: -2px 0;}
+#exp{clear:both;margin:100px 0 0 0;}
+#instructions{padding:15px;background:#EFEFEF;}
+#framed{padding:15px;background:#EFEFEF;margin:30px 0 10px 0;color:#1B1C3A;}
+#instructions h3,#framed h3{margin:0 0 20px 0;}
+#instructions p:last-child,#framed p:last-child{margin-bottom:0;}
+#plus{font-weight:700;margin:20px 0;cursor:pointer;}
+#plus:hover{color:#FFCD02;}
+.opi{width:auto;font-size:16px;color:steelblue;margin:20px 0 -20px 20px;}
+input[type="checkbox"] {float:left;}
