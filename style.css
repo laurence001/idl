@@ -5,7 +5,8 @@ main{margin-bottom:30px;}
 h1{font-weight:700;margin:30px 0 30px 0;width: calc(100% - 180px);}
 label{width:100%;margin:30px 0 10px 0;}
 button{margin:30px 0 100px 0;}
-header{position:relative;}
+header{position:relative;margin-top:10px;}
+.nav{background:#EFEFEF;font-size:15px;}
 img{position:absolute;margin-top:-30px;margin-left:50px; top:15px;right:0;width:150px;height:auto;}
 h3{font-size:24px;margin:30px 0 10px 0;font-weight:700;}
 h4{font-size:20px;margin:0 0 10px 0;font-weight:400;}
@@ -13,6 +14,7 @@ button{border:none;box-shadow:none;background:#1B1C3A;color:#FFFFFF;padding:10px
 button:hover{color:#1B1C3A;background:#FFCD02;}
 .but:hover{border:none;box-shadow:none;background:#1B1C3A;color:#FFFFFF;padding:10px 20px;}
 .but{color:#1B1C3A;background:#FFCD02;}
+button.butb{margin:50px 0 100px -3px!important;}
 select {border: none; box-shadow: none; background: #1B1C3A; color: #FFFFFF; padding: 5px 12px; }
 select:focus { outline: none; }
 select option { background: #1B1C3A; color: #FFFFFF;}
@@ -28,8 +30,8 @@ text-align: center; font-weight: bold; font-size: 28px;
 width: 100%; color:#FFFFFF; z-index:999;
 margin: -2px 0;}
 #exp{clear:both;margin:100px 0 0 0;}
-#instructions{padding:15px;background:#EFEFEF;}
-#framed{padding:15px;background:#EFEFEF;margin:30px 0 10px 0;color:#1B1C3A;}
+#instructions{padding:15px;background:#EFEFEF;margin:0 15px;}
+#framed{position: fixed; right: 0; top: 100px; background: #FFF; padding: 10px 30px 20px 30px; border-left: 1px dotted gray; height: 70%; height: 70vh;color:#1B1C3A;}
 #instructions h3,#framed h3{margin:0 0 20px 0;}
 #instructions p:last-child,#framed p:last-child{margin-bottom:0;}
 #plus{font-weight:700;margin:20px 0;cursor:pointer;}
