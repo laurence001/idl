@@ -32,7 +32,7 @@ width: 100%; color:#FFFFFF; z-index:999;
 margin: -2px 0;}
 #exp{clear:both;margin:100px 0 0 0;}
 #instructions{padding:15px;background:#EFEFEF;margin:0 15px;}
-#framed{position: fixed; right: 0; top: 100px; background: #FFF; padding: 10px 30px 20px 30px; border-left: 1px dotted gray; height: 70%; height: 70vh;color:#1B1C3A;}
+#framed{position: fixed; right: 0; top: 150px; background: #FFF; padding: 10px 30px 20px 30px; border-left: 1px dotted gray; height: 70%; height: 70vh;color:#1B1C3A;}
 #instructions h3,#framed h3{margin:0 0 20px 0;}
 #instructions p:last-child,#framed p:last-child{margin-bottom:0;}
 #plus{font-weight:700;margin:20px 0;cursor:pointer;}
