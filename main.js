@@ -17,7 +17,7 @@ $(document).ready(function() {
 		if (bullets.length !== 0) {
 		  $("#framed").show();
 		  $("#framed p").append(bullets);
-		  $("#framed h3").append("Reference: the prompt to generate the text");
+		  $("#framed h3").append("Reference: the prompt used to generate the text");
 		}
 		// Generate form fields for each sentence
 		sentences.forEach(function(sentence, index) {
@@ -43,7 +43,7 @@ $(document).ready(function() {
 		  }
 		});
 
-		var submitBtn = $("<button class='but'>").attr("type", "submit").text("View the result");
+		var submitBtn = $("<button class='but butb'>").attr("type", "submit").text("View the result");
 		$("#form2").append(submitBtn);
 	  });
       // Step 2: Handle form submission and display results
@@ -112,7 +112,7 @@ $(document).ready(function() {
 
 			
 			"<br><p>You marked " + totalOpinionCount + " sentence" +
-			(totalOpinionCount > 1 ? "s" : "") + " as opinion or comment (" +
+			(totalOpinionCount > 1 ? "s" : "") + " as opinion or extrapolation (" +
 			opinionPercentage + "% of the total amount of sentences).</p>" +
 			
 			"<h3>The IDL index for this news is " + idiIndexDisplay + "</h3>"
