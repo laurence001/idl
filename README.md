@@ -4,4 +4,4 @@ The assessment of automatically generated content is most reliable when done hum
 
 URL: https://laurence001.github.io/idl/
 
-DOC: https://youtu.be/A-P43VmEC84
+DEMO: https://youtu.be/A-P43VmEC84
