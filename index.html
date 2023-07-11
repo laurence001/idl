@@ -11,6 +11,16 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<nav class="nav">
+		<div class="col-lg-10 mx-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">EN</a>
+            </li>
+          </ul>
+		</div>
+	</nav>
+
 <main class="col-lg-10 mx-auto">
   <header>
     <img src="img/logo.jpg" alt="University of Bergen - NORDIS">
@@ -32,14 +42,15 @@
     
 	<div id="plus">+ Add prompt (optional)</div>
 	<div id="prompted" style="display:none;">
-	<h4>Add the prompt used to generate the text</h4>
+	<h4>Reference: add the prompt used to generate the text</h4>
     <textarea id="prompt" rows="1" cols="50" placeholder="Paste the prompt here"></textarea>
     </div>
 	<br>
     <button type="submit">Submit</button>
   </form>
   
-  <div id="instructions" style="display: none;">
+  <div class="row">
+  <div class="col-lg-9" id="instructions" style="display: none;">
 	<h3>Rate each sentence, according to the following rules</h3>
 	<p>
 	<strong>True:</strong> Completely true or accurate and reliable (informative)
@@ -59,12 +70,13 @@
 	<i>You can also mark the sentences you consider as an opinion or a comment to estimate their proportion in the assessed text (independent from the IDL index).</i>
   </div>
   
-  <div id="framed" style="display: none;">
+  <div class="col-lg-3" id="framed" style="display: none;">
 	<h3> </h3>
 	<p> </p>
   </div>
+  </div>
   
-  <form id="form2" style="display: none;">
+  <form class="col-lg-9" id="form2" style="display: none;">
 
   </form>
 
