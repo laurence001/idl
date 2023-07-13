@@ -96,8 +96,8 @@ $(document).ready(function() {
 		  // Calculate the percentage of opinions
 		  var opinionPercentage = (totalOpinionCount / sentences.length) * 100;
 		  opinionPercentage = Math.round(opinionPercentage * 10) / 10; // Round to 1 decimal place
-		  var opinionrate = opinionPercentage / 10
-
+		  var opinionrate = opinionPercentage/10;
+		  
 		  // Hide form 2 and display results
 		  $("#form2").hide();
 		  $("#instructions").hide();
@@ -114,7 +114,8 @@ $(document).ready(function() {
 			
 			"<br><p>You marked " + totalOpinionCount + " sentence" +
 			(totalOpinionCount > 1 ? "s" : "") + " as opinion or comment (" +
-			opinionPercentage + "% of the total amount of sentences). The Opinions/Comments rate is <strong>" + opinionrate  "</srong></p>" +
+			opinionPercentage + "% of the total amount of sentences)." + 
+			"The Opinions/Comments rate is <strong>" + opinionrate + "</strong>.</p>" +
 			
 			"<h3>The IDL index for this news is " + idiIndexDisplay + "</h3>"
 
