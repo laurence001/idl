@@ -4,4 +4,4 @@ The assessment of machine-generated content is most reliable when done humanely.
 
 URL: https://laurence001.github.io/idl/
 
-DEMO: https://youtu.be/A-P43VmEC84
+DEMO: https://youtu.be/KME3bnt9OPY
