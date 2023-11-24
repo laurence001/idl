@@ -6,6 +6,6 @@ Dierickx, L., Lindén, CG., Opdahl, A.L. (2023). The Information Disorder Level 
 
 URL: https://laurence001.github.io/idl/ (PROTOTYPE)
 
-PRODUCTION FOR TRAINING DATA : https://idlindex.net
+PRODUCTION FOR TRAINING DATA : http://idlindex.net
 
 DEMO: https://youtu.be/KME3bnt9OPY
