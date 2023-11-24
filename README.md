@@ -4,8 +4,8 @@ Large language models have enabled the rapid production of misleading or fake na
 
 Dierickx, L., Lindén, CG., Opdahl, A.L. (2023). The Information Disorder Level (IDL) Index: A Human-Based Metric to Assess the Factuality of Machine-Generated Content. In: Ceolin, D., Caselli, T., Tulin, M. (eds) Disinformation in Open Online Media. MISDOOM 2023. Lecture Notes in Computer Science, vol 14397. Springer, Cham. https://doi.org/10.1007/978-3-031-47896-3_5
 
-URL: https://laurence001.github.io/idl/ (PROTOTYPE)
+URL: https://laurence001.github.io/idl/ (PROTOTYPE, feel free to download the files and to run the program locally on your computer)
 
-PRODUCTION FOR TRAINING DATA : http://idlindex.net
+PRODUCTION FOR TRAINING DATA: http://idlindex.net
 
 DEMO: https://youtu.be/KME3bnt9OPY
